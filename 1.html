@@ -24,14 +24,11 @@
   <button type="button" onclick="init()">Start</button>
   <div id="webcam-container"></div>
 	
-	//수정 미디아파이프
- <div class="container">
+ <div class="container"> //수정 미디아파이프
     <video class="input_video"></video>
     <canvas class="output_canvas" width="1280px" height="720px"></canvas>
-  </div>
-	//수정 미디아파이프
-	//수정 댓글 기능
-	<div id="disqus_thread"></div>
+  </div> //수정 미디아파이프
+	<div id="disqus_thread"></div> //수정 댓글 기능
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -49,23 +46,19 @@
     (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	//수정 댓글 기능
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> //수정 댓글 기능
   <div id="label-container"></div>
 	
-	//수정 미디아파이프
-	<meta charset="utf-8">
+	<meta charset="utf-8"> //수정 미디아파이프
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
-	//수정 미디아파이프
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script> //수정 미디아파이프
 	
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 	
-	//수정 미디아 파이프
-	<script type="module">
+	<script type="module"> //수정 미디아 파이프
 const videoElement = document.getElementsByClassName('input_video')[0];
 const canvasElement = document.getElementsByClassName('output_canvas')[0];
 const canvasCtx = canvasElement.getContext('2d');
@@ -105,8 +98,7 @@ const camera = new Camera(videoElement, {
 });
 camera.start();
 		
-</script>
-		//수정 미디아 파이프
+</script> //수정 미디아 파이프
 	
   <script type="text/javascript">
       // More API functions here:
